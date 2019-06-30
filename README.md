@@ -1,18 +1,18 @@
 # Fibonacci Sequence Challenge
 
-I this challenge I will write a ruby script to generate teh Fibonacci sequence for a given number.
+I this challenge I’ll write a ruby script to generate the Fibonacci sequence for a given number.
 
-I will implement this solutions using recursion and iteration. I will then benchmark the solution to see wich one is more efficient.
+I’ll implement this solutions using recursion and iteration. I’ll then benchmark the solution to see which one is more efficient.
 
-## What is a Fibonacci number
+## What Is a Fibonacci Number
 
-In mathematics, the Fibonacci numbers, commonly denoted Fn form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
+In mathematics, the Fibonacci numbers, commonly denoted Fn from a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1.
 
->fib(0) = 0
+>Fib(0) = 0
 >
->fib(1) = 1
+>Fib(1) = 1
 >
->fib(n) = fib(n-1) + fib(n-2)
+>Fib(n) = Fib(n-1) + Fib(n-2)
 
 To list out the first 10 digits in the sequence, we'd get:
 
@@ -22,7 +22,7 @@ To list out the first 10 digits in the sequence, we'd get:
 
 ## Recursive Solution
 
-Build a method called recursive_fib that solves this problem by using a recursive solution. That means your solution to the problem should involve a function that calls itself. This is tricky!
+Build a method called recursive_fib that solves this problem by using a recursive solution. That means your solution to the problem should involve a function that calls itself.
 
 ## Iterative Solution
 
@@ -55,4 +55,4 @@ end
 ruby fibonacci.rb
 ```
 
-It was only tested using ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+It was only tested using ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux].
