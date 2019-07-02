@@ -1,6 +1,10 @@
 # Generate the fibonacci sequence returning the nth digit
-# Create this using recursive and iterative methods
-def recursive_fib(number, first_number = 0, next_number = 1)
+# Create this solutions using recursive and iterative methods
+def recursive_fib(number)
+  _recursive_fib(number, 0, 1)
+end
+
+def _recursive_fib(number, first_number, next_number)
   if number.zero?
     first_number
   else
