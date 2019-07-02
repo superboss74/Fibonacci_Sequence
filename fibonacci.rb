@@ -8,7 +8,7 @@ def _recursive_fib(number, first_number, next_number)
   if number.zero?
     first_number
   else
-    recursive_fib(number - 1, next_number, first_number + next_number)
+    _recursive_fib(number - 1, next_number, first_number + next_number)
   end
 end
 
